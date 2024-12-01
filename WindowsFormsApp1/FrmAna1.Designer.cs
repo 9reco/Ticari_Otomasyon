@@ -297,6 +297,7 @@
             this.Name = "FrmAna1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ana Form";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmAna1_FormClosed);
             this.Load += new System.EventHandler(this.FrmAna1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();

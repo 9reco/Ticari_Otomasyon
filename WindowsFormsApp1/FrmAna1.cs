@@ -181,5 +181,9 @@ namespace WindowsFormsApp1
             }
         }
 
+        private void FrmAna1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
